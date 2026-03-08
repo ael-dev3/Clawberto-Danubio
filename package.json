@@ -1,0 +1,14 @@
+{
+  "name": "clawberto-danubio",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Danubio token launcher skill and preflight utilities for HyperEVM",
+  "scripts": {
+    "preflight": "node scripts/danubio_launch.mjs preflight",
+    "launch": "node scripts/danubio_launch.mjs launch"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}
