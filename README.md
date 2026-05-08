@@ -108,7 +108,12 @@ So at that checkpoint, the real blocker was not signer setup, not router approva
 
 ```bash
 npm install
+cp .env.example .env
 ```
+
+Only set `HYPEREVM_EXEC_PRIVATE_KEY` in a local `.env` or shell session. The
+preflight command can run without a signer, but launch requires a funded live
+HyperEVM key.
 
 ## Preflight
 
